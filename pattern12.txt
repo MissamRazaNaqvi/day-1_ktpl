@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int line,i,k;
+    char c='A';
+    printf("enter number of lines : ");
+    scanf("%d",&line);
+    
+    for(i=1; i<=line; i++)
+    {
+        for(k=1; k<=i; k++)
+        {
+            printf("%c",c-1+k);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}

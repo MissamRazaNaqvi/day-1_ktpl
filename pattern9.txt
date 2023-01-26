@@ -1,0 +1,24 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+#include <stdio.h>
+
+int main()
+{
+    int line,i,j,k;
+    printf("enter number of line : ");
+    scanf("%d",&line);
+    
+    for(i=1; i<=line; i++)
+    {
+        
+        for(k=1; k<=i; k++)
+        {
+            printf("%d",line-k);
+        }
+        printf("\n");
+    }
+   
+    return 0;
+}
